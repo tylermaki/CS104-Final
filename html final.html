@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Designer Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: hsl(143, 60%, 25%);
+    }
+
+    nav a {
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: hsl(143, 60%, 25%);
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      padding: 30px 20px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .main-photo {
+      flex: 0 1 60%;
+      background-color: white;
+      border-radius: 16px;
+      height: 400px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .main-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    .photo-reel {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      justify-content: flex-start;
+    }
+
+    .thumbnail {
+      width: 100px;
+      height: 100px;
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    .description {
+      background-color: white;
+      margin: 30px auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="spazzy llama studios.png" alt="Spazzy Llama Studios Logo" style="max-width: 300px; width: 100%; height: auto;" />
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="content">
+    <div class="main-photo">
+      <img src="space planet final.png" alt="Space Planet Project" />
+    </div>
+    <div class="photo-reel">
+      <div class="thumbnail">
+        <img src="1.png" alt="Concept Art 1">
+      </div>
+      <div class="thumbnail">
+        <img src="zombies.jpg" alt="Zombie Game Scene">
+      </div>
+      <div class="thumbnail">
+        <img src="pumpkin.gif" alt="Pumpkin Animation">
+      </div>
+    </div>
+  </div>
+
+  <div class="description">
+    <h2>Project Space Animal</h2>
+    <p>Codenamed "Project Space Animal" is an indie game being developed by me that mixes animal crossing with other beloved titles such as mario galaxy and zelda. I want to make a space exploration game that has you go to different planets and helping the people living there. There will be open world progression and puzzle elements sprinkled in there as well. Overall I'm really excited about this and hopfully it will come out soon</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Spazzy Llama Game Design</p>
+  </footer>
+
+</body>
+</html>
