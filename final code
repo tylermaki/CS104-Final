@@ -31,7 +31,7 @@
     }
 
     nav a:hover {
-      background-color: hsl(143, 60%, 25%);
+      background-color: hsl(143, 60%, 20%);
     }
 
     .content {
@@ -81,7 +81,7 @@
       border-radius: 16px;
     }
 
-    .description {
+    .description, .about {
       background-color: white;
       margin: 30px auto;
       padding: 20px;
@@ -107,13 +107,13 @@
   </header>
 
   <nav>
-    <a href="#">Home</a>
-    <a href="#">Projects</a>
-    <a href="#">Blog</a>
-    <a href="#">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
   </nav>
 
-  <div class="content">
+  <div class="content" id="home">
     <div class="main-photo">
       <img src="space planet final.png" alt="Space Planet Project" />
     </div>
@@ -130,13 +130,18 @@
     </div>
   </div>
 
-  <div class="description">
+  <div class="description" id="projects">
     <h2>Project Space Animal</h2>
-    <p>Codenamed "Project Space Animal" is an indie game being developed by me that mixes animal crossing with other beloved titles such as mario galaxy and zelda. I want to make a space exploration game that has you go to different planets and helping the people living there. There will be open world progression and puzzle elements sprinkled in there as well. Overall I'm really excited about this and hopfully it will come out soon</p>
+    <p>Project Space Animal is an indie game I'm developing that blends the charm of Animal Crossing with the adventure of games like Super Mario Galaxy and Zelda. The game focuses on exploring unique planets, helping quirky animal inhabitants, and solving light puzzles along the way. It’s a cozy open-world experience with a mix of story and freedom. I'm really excited about it and can't wait to share more soon!</p>
   </div>
 
-  <footer>
-    <p>&copy; 2025 Spazzy Llama Game Design</p>
+  <div class="about" id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm a passionate indie game designer who loves creating colorful, story-rich worlds. I work mostly in Unity and enjoy combining genres like adventure, exploration, and simulation. This site is a place where I can share my progress, ideas, and creative experiments. Thanks for stopping by!</p>
+  </div>
+
+  <footer id="contact">
+    <p>&copy; 2025 Spazzy Llama Game Design | Contact: spazzyllama@example.com</p>
   </footer>
 
 </body>
