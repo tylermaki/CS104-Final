@@ -1,0 +1,1 @@
+This is the homepage for my Game Designer Blog website. It is designed to showcase my game design work, including case studies, a personal bio, and navigation to other site sections. The page is built using HTML5 and is intended to serve as a professional online presence for presenting my game development skills and projects.
